@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-06-02T17:27:51+07:00</updated><id>/feed.xml</id><title type="html">NewbieLab28</title><subtitle>Dokumentasi Tech</subtitle><author><name>Rohim Muhamad</name></author><entry><title type="html">Fixed vs Rolling Release</title><link href="/perbedaan-rilis-model-pada-linux/" rel="alternate" type="text/html" title="Fixed vs Rolling Release" /><published>2021-03-20T00:00:00+07:00</published><updated>2021-03-20T00:00:00+07:00</updated><id>/perbedaan-rilis-model-pada-linux</id><content type="html" xml:base="/perbedaan-rilis-model-pada-linux/">&lt;p&gt;&lt;img src=&quot;/assets/img/linux-rilis-model-edt.jpg&quot; alt=&quot;Linux Release Model&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Perbedaan model rilis pada linux. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Setiap distribusi linux menggunakan sebuah manajemen paket aplikasi yang berfungsi untuk install, update, dan hapus software aplikasi yang terpasang pada sistem operasi. Di dunia linux terdapat tiga model rilis yakni,&lt;/p&gt;
+
+&lt;h2 id=&quot;1-stable-release&quot;&gt;1. Stable Release&lt;/h2&gt;
+&lt;p&gt;Pada stable / fixed rilis, hanya update patch security yang dilakukan secara berkala. Sementara penambahan software baru atau update-nya dilakukan bersamaan dengan di rilisnya versi OS terbaru dalam jadwal tertentu (Fixed), biasanya 6 bulan atau 1 tahun.&lt;/p&gt;
+
+&lt;p&gt;Stable/fixed rilis sangat direkomendasikan bagi pengguna linux pemula dikarenakan OS yang menggunakan model rilis ini bisa langsung di gunakan setelah proses instalasi selesai.&lt;/p&gt;
+
+&lt;p&gt;Contoh : Ubuntu, Mint, Debian, Fedora&lt;/p&gt;
+
+&lt;h2 id=&quot;2-rolling-release&quot;&gt;2. Rolling Release&lt;/h2&gt;
+&lt;p&gt;Setiap software aplikasi selalu di update sesaat setelah developer merilisnya. Dengan menggunakan model rolling, kita selalu mendapatkan versi terbaru dari sebuah software. Pilihan tepat jika kita menginginkan software terupdate. Karena rolling rilis di update berkala, maka tidak diperlukan re-install OS setiap 6 bulan atau 1 tahun. Cukup selalu lakukan update maka kita akan selalu mendapatkan versi OS &amp;amp; software yang terbarukan.&lt;/p&gt;
+
+&lt;p&gt;Namun, menggunakan model rolling release terkadang mendapat error / masalah setelah update karena alasan kompatibilitas software dengan OS.&lt;/p&gt;
+
+&lt;p&gt;Contoh : Arch, Manjaro&lt;/p&gt;
+
+&lt;h2 id=&quot;3-semi-rolling&quot;&gt;3. Semi Rolling&lt;/h2&gt;
+&lt;p&gt;Model rilis ini hanya aplikasi pihak ketiga &amp;amp; security saja yang update secara rolling. Sementara untuk sistem inti OS menggunakan di update menggunakan model rilis stable/fixed sesuai jadwal rilis OS tersebut.&lt;/p&gt;
+
+&lt;p&gt;Sangat cocok jika kita masih mempertimbangkan soal stabilitas system core OS, sekaligus ingin mendapatkan update terbaru dari aplikasi pihak ketiga.&lt;/p&gt;
+
+&lt;p&gt;Contoh : Chakra Linux, MX Linux&lt;/p&gt;
+
+&lt;h3 id=&quot;referensi&quot;&gt;Referensi&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://averagelinuxuser.com/rolling-vs-fixed-linux-release/&quot;&gt;average-linux-user&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rohim Muhamad</name></author><category term="linux" /><summary type="html">Perbedaan model rilis pada linux.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/linux-rilis-model-edt.jpg" /><media:content medium="image" url="/linux-rilis-model-edt.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Menampilkan thumbnail pada ranger</title><link href="/Setting-Kitty-Ranger/" rel="alternate" type="text/html" title="Menampilkan thumbnail pada ranger" /><published>2021-02-03T00:00:00+07:00</published><updated>2021-02-03T00:00:00+07:00</updated><id>/Setting-Kitty-Ranger</id><content type="html" xml:base="/Setting-Kitty-Ranger/">&lt;p&gt;&lt;img src=&quot;/assets/img/ranger-kitty.jpg&quot; alt=&quot;ranger-kitty&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cara setting ranger file manager pada Kitty. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Ranger adalah sebuah file manager berbasis konsol dengan VIM keybindings. Menyediakan tampilan minimalistik dengan konsep direktori hirarki.&lt;/p&gt;
+
+&lt;p&gt;Saya sarankan teman-teman menggunakan terminal emulator alacritty atau kitty yang sudah pernah saya coba sebelumnya dan berhasil. Jika belum punya silahkan mengikuti tutorial install kitty di &lt;a href=&quot;https://linoxide.com/kitty-terminal-emulator/&quot;&gt;Install dan konfigurasi kitty terminal emulator&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-instalasi-ranger&quot;&gt;1. Instalasi Ranger&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ sudo apt install ranger&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Setelah terinstall, ranger akan membuat sebuah direktori di &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.config/ranger&lt;/code&gt; . Untuk menyalin konfigurasi dasar ranger ke direktori tersebut ketikkan command ini di terminal.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$ ranger –copy-config=all&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;2-konfigurasi-ranger&quot;&gt;2. Konfigurasi Ranger&lt;/h2&gt;
+
+&lt;p&gt;Buka file konfigurasi ranger di &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.config/ranger/rc.conf&lt;/code&gt;, kemudian cari baris dan cocokkan dengan baris di bawah ini&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;set preview_images true&lt;/p&gt;
+
+  &lt;p&gt;set preview_images_method w3m&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Atau jika menggunakan terminal kitty emulator bisa menggunakan ini :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;set preview_images_method kitty&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Terakhir, kita ketikkan &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ ranger&lt;/code&gt; pada terminal dan arahkan ke file gambar/ video.&lt;/p&gt;
+
+&lt;p&gt;Berikut hasilnya.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/ranger-kitty-tampil-gambar.png&quot; alt=&quot;ranger-file-manager&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;referensi&quot;&gt;Referensi&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://linoxide.com/kitty-terminal-emulator/&quot;&gt;install kitty&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;referensi-1&quot;&gt;Referensi&lt;/h3&gt;</content><author><name>Rohim Muhamad</name></author><category term="linux" /><category term="terminal" /><category term="ranger" /><summary type="html">Cara setting ranger file manager pada Kitty.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/ranger-kitty.jpg" /><media:content medium="image" url="/ranger-kitty.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">3 Distro Linux Cocok Untuk Pemula</title><link href="/distro-linux-cocok-untuk-pemula/" rel="alternate" type="text/html" title="3 Distro Linux Cocok Untuk Pemula" /><published>2021-01-11T00:00:00+07:00</published><updated>2021-01-11T00:00:00+07:00</updated><id>/distro-linux-cocok-untuk-pemula</id><content type="html" xml:base="/distro-linux-cocok-untuk-pemula/">&lt;p&gt;&lt;img src=&quot;/assets/img/linux-logo-pinguin.jpeg&quot; alt=&quot;Linux&quot; class=&quot;img-responsive&quot; /&gt;
+Tips memilih distro linux bagi pemula.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Pertama, yang termasuk kategori pemula ialah :&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Belum pernah install software linux sendiri&lt;/li&gt;
+    &lt;li&gt;Pernah menggunakan linux, tapi belum migrasi ke linux sepenuhnya&lt;/li&gt;
+    &lt;li&gt;Tidak memiliki kemampuan teknis mendalam&lt;/li&gt;
+    &lt;li&gt;Awam dengan terminal/console&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Kedua, adalah kebutuhan bagi pemula berupa :&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Dukungan komunitas&lt;/li&gt;
+    &lt;li&gt;Kemudahan proses instalasi&lt;/li&gt;
+    &lt;li&gt;Dukungan driver&lt;/li&gt;
+    &lt;li&gt;Kemudahan instalasi aplikasi software&lt;/li&gt;
+    &lt;li&gt;User interface&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;1-linux-mint&quot;&gt;1. Linux Mint&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Basis&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Rilis Model&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Desktop&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Debian, Ubuntu (LTS)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Stable&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Cinnamon, MATE, XFCE&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Linux mint adalah rekomendasi pertama dari penulis. Proses instalasinya menggunakan graphical interface. Desktop Environment yang hampir mirip dengan windows. Linux mint juga merupakan turunan distro ubuntu yang notabene-nya di buatmemang untuk pemula dan masih dalam keluarga debian yang memiliki banyak ketersediaan software aplikasi.&lt;/p&gt;
+
+&lt;p&gt;Linux Mint merupakan standard release/ stable release yang juga memiliki versi release LTS (Long Term Support) sehingga pengguna tidak perlu sering melakukan update system (jangka waktu lebih dari setahun).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Homepage - &lt;a href=&quot;https://linuxmint.com/&quot;&gt;Linuxmint&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Telegram - &lt;a href=&quot;https://t.me/mint_id&quot;&gt;MintID&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2-manjaro&quot;&gt;2. Manjaro&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Basis&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Rilis Model&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Desktop&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Arch&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Rolling&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Awesome, BSPWM, XFCE, GNOME, MATE, LXQt, OpenBox, KDE Plasma, i3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Manjaro merupakan turunan arch yang menerapkan system rolling release. Untuk lebih mengetahui perbedaan rolling release dan stable release silahkan cek rolling release vs stable release vs semi rolling.&lt;/p&gt;
+
+&lt;p&gt;Proses instalasi Manjaro menggunakan graphical interface, tidak seperti arch yang menggunakan terminal/console.&lt;/p&gt;
+
+&lt;p&gt;Yang menjadikan Manjaro dan keluarga arch lainnya spesial adalah kemudahan dalam proses instalasi software dan dukungan system yang selalu paling baru di banding distro dari keluarga ubuntu/debian.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Homepage resmi - &lt;a href=&quot;https://manjaro.org/&quot;&gt;Manjaro&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Telegram - &lt;a href=&quot;https://t.me/manjaroID&quot;&gt;Manjaroid&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;3-mx-linux&quot;&gt;3. MX Linux&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Basis&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Rilis Model&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Desktop&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Debian (Stable), antiX&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Semi Rolling&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;XFCE, KDE Plasma&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Rekomendasi distro linux terakhir adalah MX Linux yang merupakan keluarga debian yang stabil. MX Linux merupakan usaha bersama antara pengembang antiX dan komunitas MX Linux. Distro ini menerapkan semi rolling. Cocok digunakan bagi yang memiliki hardware menengah kebawah atau hardware kentang.&lt;/p&gt;
+
+&lt;p&gt;Banyak fitur keren yang disematkan pengembang MX Linux seperti software untuk membuat linux portable di dalam flashdisk, snapshot untuk membuat instalasi linux baru dll.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Homepage resmi - &lt;a href=&quot;https://mxlinux.org/&quot;&gt;MX Linux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Telegram - &lt;a href=&quot;https://t.me/MXLinuxIndonesia&quot;&gt;MXLinuxIndonesia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Disclaimer : Semua distro di bawah ini sudah ditest oleh penulis.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;referensi&quot;&gt;Referensi&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pengalaman Pribadi&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=JmLA9EY7xEs&quot;&gt;Indonesia Belajar&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://distrowatch.com/&quot;&gt;DistroWatch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Rohim Muhamad</name></author><summary type="html">Tips memilih distro linux bagi pemula.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="/linux-logo-pinguin.jpeg" /><media:content medium="image" url="/linux-logo-pinguin.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

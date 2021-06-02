@@ -1,0 +1,569 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.23.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Fixed vs Rolling Release - NewbieLab28</title>
+<meta name="description" content="Perbedaan model rilis pada linux.">
+
+
+  <meta name="author" content="Rohim Muhamad">
+  
+  <meta property="article:author" content="Rohim Muhamad">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="NewbieLab28">
+<meta property="og:title" content="Fixed vs Rolling Release">
+<meta property="og:url" content="/perbedaan-rilis-model-pada-linux/">
+
+
+  <meta property="og:description" content="Perbedaan model rilis pada linux.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-03-20T00:00:00+07:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="/perbedaan-rilis-model-pada-linux/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Rohim Muhamad",
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="NewbieLab28 Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          NewbieLab28
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/tags/">Kategori</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">Tentang Kami</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/img/profilMe.jpg" alt="Rohim Muhamad" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Rohim Muhamad</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Writer</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Tangerang</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:rohimuhamadd.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Fixed vs Rolling Release">
+    <meta itemprop="description" content="Perbedaan model rilis pada linux.">
+    <meta itemprop="datePublished" content="2021-03-20T00:00:00+07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Fixed vs Rolling Release
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><img src="/assets/img/linux-rilis-model-edt.jpg" alt="Linux Release Model" class="img-responsive" /></p>
+
+<p>Perbedaan model rilis pada linux. <!--more--></p>
+
+<p>Setiap distribusi linux menggunakan sebuah manajemen paket aplikasi yang berfungsi untuk install, update, dan hapus software aplikasi yang terpasang pada sistem operasi. Di dunia linux terdapat tiga model rilis yakni,</p>
+
+<h2 id="1-stable-release">1. Stable Release</h2>
+<p>Pada stable / fixed rilis, hanya update patch security yang dilakukan secara berkala. Sementara penambahan software baru atau update-nya dilakukan bersamaan dengan di rilisnya versi OS terbaru dalam jadwal tertentu (Fixed), biasanya 6 bulan atau 1 tahun.</p>
+
+<p>Stable/fixed rilis sangat direkomendasikan bagi pengguna linux pemula dikarenakan OS yang menggunakan model rilis ini bisa langsung di gunakan setelah proses instalasi selesai.</p>
+
+<p>Contoh : Ubuntu, Mint, Debian, Fedora</p>
+
+<h2 id="2-rolling-release">2. Rolling Release</h2>
+<p>Setiap software aplikasi selalu di update sesaat setelah developer merilisnya. Dengan menggunakan model rolling, kita selalu mendapatkan versi terbaru dari sebuah software. Pilihan tepat jika kita menginginkan software terupdate. Karena rolling rilis di update berkala, maka tidak diperlukan re-install OS setiap 6 bulan atau 1 tahun. Cukup selalu lakukan update maka kita akan selalu mendapatkan versi OS &amp; software yang terbarukan.</p>
+
+<p>Namun, menggunakan model rolling release terkadang mendapat error / masalah setelah update karena alasan kompatibilitas software dengan OS.</p>
+
+<p>Contoh : Arch, Manjaro</p>
+
+<h2 id="3-semi-rolling">3. Semi Rolling</h2>
+<p>Model rilis ini hanya aplikasi pihak ketiga &amp; security saja yang update secara rolling. Sementara untuk sistem inti OS menggunakan di update menggunakan model rilis stable/fixed sesuai jadwal rilis OS tersebut.</p>
+
+<p>Sangat cocok jika kita masih mempertimbangkan soal stabilitas system core OS, sekaligus ingin mendapatkan update terbaru dari aplikasi pihak ketiga.</p>
+
+<p>Contoh : Chakra Linux, MX Linux</p>
+
+<h3 id="referensi">Referensi</h3>
+<hr />
+<ul>
+  <li><a href="https://averagelinuxuser.com/rolling-vs-fixed-linux-release/">average-linux-user</a></li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/linux" class="page__taxonomy-item" rel="tag">linux</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-03-20T00:00:00+07:00">March 20, 2021</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Fixed+vs+Rolling+Release%20%2Fperbedaan-rilis-model-pada-linux%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=%2Fperbedaan-rilis-model-pada-linux%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+<!-- WHATSAPP
+<a href="whatsapp://send?text=%2Fperbedaan-rilis-model-pada-linux%2F" class="btn btn--whatsapp" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-whatsapp" aria-hidden="true"></i><span> Whatsapp</span></a>
+-->
+
+<!-- LINKDIN
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=%2Fperbedaan-rilis-model-pada-linux%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a> -->
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/Setting-Kitty-Ranger/" class="pagination--pager" title="Menampilkan thumbnail pada ranger
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  <! IF POST MORE THEN 20 POSTS, SO THIS FEATURE WILL BE RELEASE -->
+
+  
+  
+<!--    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+        
+
+
+
+<div class="teaser__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/Setting-Kitty-Ranger/" rel="permalink">Menampilkan thumbnail pada ranger
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+
+Cara setting ranger file manager pada Kitty.
+</p>
+    
+  </article>
+</div>
+
+        
+        
+
+
+
+<div class="teaser__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/distro-linux-cocok-untuk-pemula/" rel="permalink">3 Distro Linux Cocok Untuk Pemula
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    
+    <p class="archive__item-excerpt" itemprop="description">
+Tips memilih distro linux bagi pemula.
+</p>
+    
+  </article>
+</div>
+
+        
+      </div>
+</div> -->
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <!-- <li><strong>Follow:</strong></li> -->
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <!-- <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li> -->
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright" style="text-align: center;">&copy; 2021 Rohim Muhamad. Powered by<br> <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
