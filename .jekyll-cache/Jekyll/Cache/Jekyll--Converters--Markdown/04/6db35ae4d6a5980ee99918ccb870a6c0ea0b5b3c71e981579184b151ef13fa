@@ -1,0 +1,122 @@
+I"Â<p><img src="/assets/img/linux-logo-pinguin.jpeg" alt="Linux" class="img-responsive" />
+Tips memilih distro linux bagi pemula.<!--more--></p>
+
+<p>Pertama, yang termasuk kategori pemula ialah :</p>
+<blockquote>
+  <ul>
+    <li>Belum pernah install software linux sendiri</li>
+    <li>Pernah menggunakan linux, tapi belum migrasi ke linux sepenuhnya</li>
+    <li>Tidak memiliki kemampuan teknis mendalam</li>
+    <li>Awam dengan terminal/console</li>
+  </ul>
+</blockquote>
+
+<p>Kedua, adalah kebutuhan bagi pemula berupa :</p>
+<blockquote>
+  <ul>
+    <li>Dukungan komunitas</li>
+    <li>Kemudahan proses instalasi</li>
+    <li>Dukungan driver</li>
+    <li>Kemudahan instalasi aplikasi software</li>
+    <li>User interface</li>
+  </ul>
+</blockquote>
+
+<h2 id="1-linux-mint">1. Linux Mint</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Basis</th>
+      <th style="text-align: center">Rilis Model</th>
+      <th style="text-align: center">Desktop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Debian, Ubuntu (LTS)</td>
+      <td style="text-align: center">Stable</td>
+      <td style="text-align: center">Cinnamon, MATE, XFCE</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Linux mint adalah rekomendasi pertama dari penulis. Proses instalasinya menggunakan graphical interface. Desktop Environment yang hampir mirip dengan windows. Linux mint juga merupakan turunan distro ubuntu yang notabene-nya di buatmemang untuk pemula dan masih dalam keluarga debian yang memiliki banyak ketersediaan software aplikasi.</p>
+
+<p>Linux Mint merupakan standard release/ stable release yang juga memiliki versi release LTS (Long Term Support) sehingga pengguna tidak perlu sering melakukan update system (jangka waktu lebih dari setahun).</p>
+
+<ul>
+  <li>Homepage - <a href="https://linuxmint.com/">Linuxmint</a></li>
+  <li>Telegram - <a href="https://t.me/mint_id">MintID</a></li>
+</ul>
+
+<h2 id="2-manjaro">2. Manjaro</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Basis</th>
+      <th style="text-align: center">Rilis Model</th>
+      <th style="text-align: center">Desktop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Arch</td>
+      <td style="text-align: center">Rolling</td>
+      <td style="text-align: center">Awesome, BSPWM, XFCE, GNOME, MATE, LXQt, OpenBox, KDE Plasma, i3</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Manjaro merupakan turunan arch yang menerapkan system rolling release. Untuk lebih mengetahui perbedaan rolling release dan stable release silahkan cek rolling release vs stable release vs semi rolling.</p>
+
+<p>Proses instalasi Manjaro menggunakan graphical interface, tidak seperti arch yang menggunakan terminal/console.</p>
+
+<p>Yang menjadikan Manjaro dan keluarga arch lainnya spesial adalah kemudahan dalam proses instalasi software dan dukungan system yang selalu paling baru di banding distro dari keluarga ubuntu/debian.</p>
+
+<ul>
+  <li>Homepage resmi - <a href="https://manjaro.org/">Manjaro</a></li>
+  <li>Telegram - <a href="https://t.me/manjaroID">Manjaroid</a></li>
+</ul>
+
+<h2 id="3-mx-linux">3. MX Linux</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Basis</th>
+      <th style="text-align: center">Rilis Model</th>
+      <th style="text-align: center">Desktop</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Debian (Stable), antiX</td>
+      <td style="text-align: center">Semi Rolling</td>
+      <td style="text-align: center">XFCE, KDE Plasma</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Rekomendasi distro linux terakhir adalah MX Linux yang merupakan keluarga debian yang stabil. MX Linux merupakan usaha bersama antara pengembang antiX dan komunitas MX Linux. Distro ini menerapkan semi rolling. Cocok digunakan bagi yang memiliki hardware menengah kebawah atau hardware kentang.</p>
+
+<p>Banyak fitur keren yang disematkan pengembang MX Linux seperti software untuk membuat linux portable di dalam flashdisk, snapshot untuk membuat instalasi linux baru dll.</p>
+
+<ul>
+  <li>Homepage resmi - <a href="https://mxlinux.org/">MX Linux</a></li>
+  <li>Telegram - <a href="https://t.me/MXLinuxIndonesia">MXLinuxIndonesia</a></li>
+</ul>
+
+<blockquote>
+  <p>Disclaimer : Semua distro di bawah ini sudah ditest oleh penulis.</p>
+</blockquote>
+
+<h3 id="referensi">Referensi</h3>
+<hr />
+<ul>
+  <li>Pengalaman Pribadi</li>
+  <li><a href="https://www.youtube.com/watch?v=JmLA9EY7xEs">Indonesia Belajar</a></li>
+  <li><a href="https://distrowatch.com/">DistroWatch</a></li>
+</ul>
+:ET

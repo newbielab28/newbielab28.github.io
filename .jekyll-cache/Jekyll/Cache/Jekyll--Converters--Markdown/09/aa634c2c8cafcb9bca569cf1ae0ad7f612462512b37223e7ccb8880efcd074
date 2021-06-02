@@ -1,0 +1,33 @@
+I"¶<p><img src="/assets/img/linux-rilis-model-edt.jpg" alt="Linux Release Model" class="img-responsive" /></p>
+
+<p>Perbedaan model rilis pada linux. <!--more--></p>
+
+<p>Setiap distribusi linux menggunakan sebuah manajemen paket aplikasi yang berfungsi untuk install, update, dan hapus software aplikasi yang terpasang pada sistem operasi. Di dunia linux terdapat tiga model rilis yakni,</p>
+
+<h2 id="1-stable-release">1. Stable Release</h2>
+<p>Pada stable / fixed rilis, hanya update patch security yang dilakukan secara berkala. Sementara penambahan software baru atau update-nya dilakukan bersamaan dengan di rilisnya versi OS terbaru dalam jadwal tertentu (Fixed), biasanya 6 bulan atau 1 tahun.</p>
+
+<p>Stable/fixed rilis sangat direkomendasikan bagi pengguna linux pemula dikarenakan OS yang menggunakan model rilis ini bisa langsung di gunakan setelah proses instalasi selesai.</p>
+
+<p>Contoh : Ubuntu, Mint, Debian, Fedora</p>
+
+<h2 id="2-rolling-release">2. Rolling Release</h2>
+<p>Setiap software aplikasi selalu di update sesaat setelah developer merilisnya. Dengan menggunakan model rolling, kita selalu mendapatkan versi terbaru dari sebuah software. Pilihan tepat jika kita menginginkan software terupdate. Karena rolling rilis di update berkala, maka tidak diperlukan re-install OS setiap 6 bulan atau 1 tahun. Cukup selalu lakukan update maka kita akan selalu mendapatkan versi OS &amp; software yang terbarukan.</p>
+
+<p>Namun, menggunakan model rolling release terkadang mendapat error / masalah setelah update karena alasan kompatibilitas software dengan OS.</p>
+
+<p>Contoh : Arch, Manjaro</p>
+
+<h2 id="3-semi-rolling">3. Semi Rolling</h2>
+<p>Model rilis ini hanya aplikasi pihak ketiga &amp; security saja yang update secara rolling. Sementara untuk sistem inti OS menggunakan di update menggunakan model rilis stable/fixed sesuai jadwal rilis OS tersebut.</p>
+
+<p>Sangat cocok jika kita masih mempertimbangkan soal stabilitas system core OS, sekaligus ingin mendapatkan update terbaru dari aplikasi pihak ketiga.</p>
+
+<p>Contoh : Chakra Linux, MX Linux</p>
+
+<h3 id="referensi">Referensi</h3>
+<hr />
+<ul>
+  <li><a href="https://averagelinuxuser.com/rolling-vs-fixed-linux-release/">average-linux-user</a></li>
+</ul>
+:ET

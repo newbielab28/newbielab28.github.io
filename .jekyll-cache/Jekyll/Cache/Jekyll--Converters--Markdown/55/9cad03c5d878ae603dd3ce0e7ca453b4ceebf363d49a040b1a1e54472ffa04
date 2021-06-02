@@ -1,0 +1,50 @@
+I"Å<p><img src="/assets/img/ranger-kitty.jpg" alt="ranger-kitty" class="img-responsive" /></p>
+
+<p>Cara setting ranger file manager pada Kitty. <!--more--></p>
+
+<p>Ranger adalah sebuah file manager berbasis konsol dengan VIM keybindings. Menyediakan tampilan minimalistik dengan konsep direktori hirarki.</p>
+
+<p>Saya sarankan teman-teman menggunakan terminal emulator alacritty atau kitty yang sudah pernah saya coba sebelumnya dan berhasil. Jika belum punya silahkan mengikuti tutorial install kitty di <a href="https://linoxide.com/kitty-terminal-emulator/">Install dan konfigurasi kitty terminal emulator</a>.</p>
+
+<h2 id="1-instalasi-ranger">1. Instalasi Ranger</h2>
+
+<blockquote>
+  <p>$ sudo apt install ranger</p>
+</blockquote>
+
+<p>Setelah terinstall, ranger akan membuat sebuah direktori di <code class="language-plaintext highlighter-rouge">~/.config/ranger</code> . Untuk menyalin konfigurasi dasar ranger ke direktori tersebut ketikkan command ini di terminal.</p>
+
+<blockquote>
+  <p>$ ranger â€“copy-config=all</p>
+</blockquote>
+
+<h2 id="2-konfigurasi-ranger">2. Konfigurasi Ranger</h2>
+
+<p>Buka file konfigurasi ranger di <code class="language-plaintext highlighter-rouge">~/.config/ranger/rc.conf</code>, kemudian cari baris dan cocokkan dengan baris di bawah ini</p>
+
+<blockquote>
+  <p>set preview_images true</p>
+
+  <p>set preview_images_method w3m</p>
+</blockquote>
+
+<p>Atau jika menggunakan terminal kitty emulator bisa menggunakan ini :</p>
+
+<blockquote>
+  <p>set preview_images_method kitty</p>
+</blockquote>
+
+<p>Terakhir, kita ketikkan <code class="language-plaintext highlighter-rouge">$ ranger</code> pada terminal dan arahkan ke file gambar/ video.</p>
+
+<p>Berikut hasilnya.</p>
+
+<p><img src="/assets/img/ranger-kitty-tampil-gambar.png" alt="ranger-file-manager" class="img-responsive" /></p>
+
+<h3 id="referensi">Referensi</h3>
+<hr />
+<ul>
+  <li><a href="https://linoxide.com/kitty-terminal-emulator/">install kitty</a></li>
+</ul>
+
+<h3 id="referensi-1">Referensi</h3>
+:ET
