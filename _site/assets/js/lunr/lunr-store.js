@@ -16,4 +16,10 @@ var store = [{
         "tags": ["linux"],
         "url": "/perbedaan-rilis-model-pada-linux/",
         "teaser": null
+      },{
+        "title": "Download youtube dengan youtube-dl",
+        "excerpt":"Dengan youtube-dl, kita bisa mendownload video dari youtube atau tempat lainnya menggunakan command line / terminal. Instalasi Untuk pengguna UNIX (Linux &amp; MACos) Download file yang di butuhkan &amp; buat file tersebut menjadi excutable $ sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl $ sudo chmod a+rx /usr/local/bin/youtube-dl Cara Download Video Copy link...","categories": [],
+        "tags": ["aplikasi","linux","terminalBased"],
+        "url": "/download-youtube-dengan-youtubedl/",
+        "teaser": null
       }]

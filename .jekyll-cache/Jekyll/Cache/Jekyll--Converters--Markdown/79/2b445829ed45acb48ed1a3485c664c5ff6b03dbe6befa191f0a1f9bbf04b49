@@ -1,0 +1,55 @@
+I"‰
+<p>Dengan youtube-dl, kita bisa mendownload video dari youtube atau tempat lainnya menggunakan command line / terminal.</p>
+
+<h3 id="instalasi">Instalasi</h3>
+<hr />
+<p>Untuk pengguna UNIX (Linux &amp; MACos)</p>
+
+<ul>
+  <li>Download file yang di butuhkan &amp; buat file tersebut menjadi excutable</li>
+</ul>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">$</code> <code class="language-plaintext highlighter-rouge">sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl</code></p>
+
+  <p><code class="language-plaintext highlighter-rouge">$</code> <code class="language-plaintext highlighter-rouge">sudo chmod a+rx /usr/local/bin/youtube-dl</code></p>
+</blockquote>
+
+<h3 id="cara-download-video">Cara Download Video</h3>
+<hr />
+<ol>
+  <li>Copy link video youtube yang diinginkan</li>
+  <li>Buka Command Line dan ketikkan <code class="language-plaintext highlighter-rouge">youtube-dl</code></li>
+</ol>
+
+<p><code class="language-plaintext highlighter-rouge">$ youtube-dl https://www.youtube.com/watch?v=pf_StalkSwM</code></p>
+
+<p><img src="/assets/img/ytdl-pict/terminal-youtubedl.png" alt="Youtube-dl" /></p>
+
+<p>Otomatis akan mendownload video dengan kualitas terbaik yang tersedia.</p>
+
+<h3 id="memilih-format-video-tertentu">Memilih format video tertentu</h3>
+<hr />
+<p>Cek format video yang tersedia dengan perintah dibawah ini :</p>
+
+<p><code class="language-plaintext highlighter-rouge">$</code> <code class="language-plaintext highlighter-rouge">youtube-dl -F https://www.youtube.com/watch?v=pf_StalkSwM</code></p>
+
+<p><img src="/assets/img/ytdl-pict/ytdl-cek-format.png" alt="Youtube-dl" /></p>
+
+<p>Download video dengan memilih format yang tersedia pada kolom format, misal saya ingin mendownload video dengan kualitas 360p maka saya tambahkan 18 (lihat tabel format).</p>
+
+<p><code class="language-plaintext highlighter-rouge">$</code> <code class="language-plaintext highlighter-rouge">youtube-dl -f 18 https://www.youtube.com/watch?v=pf_StalkSwM</code></p>
+
+<p><img src="/assets/img/ytdl-pict/ytdl-download-format.png" alt="Youtube-dl" /></p>
+
+<h3 id="download-video-dengan-format-audio--mp3">Download video dengan format audio / mp3</h3>
+<hr />
+<p>Disini akan dicontohkan convert video menjadi format mp3 menggunakan FFmpeg.</p>
+
+<p><code class="language-plaintext highlighter-rouge">$</code> <code class="language-plaintext highlighter-rouge">youtube-dl -x --audio-format mp3 --prefer-ffmpeg https://www.youtube.com/watch?v=wkBBN0ygI8c</code></p>
+
+<p><img src="/assets/img/ytdl-pict/ytdl-mp3.png" alt="Youtube-dl" /></p>
+
+<h2 id="references">References:</h2>
+<p><a href="https://github.com/ytdl-org/youtube-dl">youtube-dl</a></p>
+:ET
